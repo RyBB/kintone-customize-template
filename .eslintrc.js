@@ -1,9 +1,15 @@
 module.exports = {
-  extends: '@cybozu',
-  globals: {
-    kintone: 'readonly'
+  'env': {
+    'browser': true,
+    'es2021': true,
   },
-  rules: {
-    'no-underscore-dangle': 'off',
-    'no-console': 'off'
-  }};
+  'extends': [
+    'google',
+  ],
+  'parserOptions': {
+    'ecmaVersion': 12,
+    'sourceType': 'module',
+  },
+  'rules': {
+  },
+};
