@@ -882,12 +882,12 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@kintone/customize-uploader@3.1.13":
-  version "3.1.13"
-  resolved "https://registry.npmjs.org/@kintone/customize-uploader/-/customize-uploader-3.1.13.tgz"
-  integrity sha512-QiZjaMg5bUMHjZlCDHQzATI5TVbQrl11T4zRpqSP5rtRr3a1/D3HFrIfghHJD9bY8MfATm7zSyqVW3FTpvC2WQ==
+"@kintone/customize-uploader@3.1.14":
+  version "3.1.14"
+  resolved "https://registry.npmjs.org/@kintone/customize-uploader/-/customize-uploader-3.1.14.tgz"
+  integrity sha512-HcPKLsFnJmtK6ynMO1+QEKCfHC1ZmBnEhmf8E/h1yRswohj3pEbNqB9u+J3N/UE1PsRSjPkPGR8JJ0HA6zEeQg==
   dependencies:
-    "@kintone/rest-api-client" "^1.12.4"
+    "@kintone/rest-api-client" "^1.13.0"
     chokidar "^3.5.1"
     inquirer "^8.0.0"
     meow "^9.0.0"
@@ -895,13 +895,13 @@
     os-locale "^5.0.0"
     rimraf "^3.0.2"
 
-"@kintone/rest-api-client@^1.12.4":
-  version "1.12.4"
-  resolved "https://registry.npmjs.org/@kintone/rest-api-client/-/rest-api-client-1.12.4.tgz"
-  integrity sha512-NKrM7Y8Rqp5sj1mhICH0AsEmp1QLglkMLuJkfgnncfWUQZTUPj+eL/SxEDO24qW6sb/HzJ0i7+xn7pmhtPW/hw==
+"@kintone/rest-api-client@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.npmjs.org/@kintone/rest-api-client/-/rest-api-client-1.13.0.tgz"
+  integrity sha512-z3BrwRsgoc9htl+TUiaEtTFd6PH3TDAwLfjQyoszyn3aLQxt0j33FZcDIasQnTECQVu0aJkUH6mprUiS2a5pKw==
   dependencies:
     axios "^0.21.0"
-    core-js "^3.10.2"
+    core-js "^3.11.0"
     form-data "^4.0.0"
     js-base64 "^2.6.4"
     qs "^6.10.1"
@@ -1783,10 +1783,15 @@ core-js-pure@^3.0.0:
   resolved "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.10.1.tgz"
   integrity sha512-PeyJH2SE0KuxY5eCGNWA+W+CeDpB6M1PN3S7Am7jSv/Ttuxz2SnWbIiVQOn/TDaGaGtxo8CRWHkXwJscbUHtVw==
 
-core-js@3.10.2, core-js@^3.10.2:
+core-js@3.10.2:
   version "3.10.2"
   resolved "https://registry.npmjs.org/core-js/-/core-js-3.10.2.tgz"
   integrity sha512-W+2oVYeNghuBr3yTzZFQ5rfmjZtYB/Ubg87R5YOmlGrIb+Uw9f7qjUbhsj+/EkXhcV7eOD3jiM4+sgraX3FZUw==
+
+core-js@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-3.11.0.tgz"
+  integrity sha512-bd79DPpx+1Ilh9+30aT5O1sgpQd4Ttg8oqkqi51ZzhedMM1omD2e6IOF48Z/DzDCZ2svp49tN/3vneTK6ZBkXw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -2478,9 +2483,9 @@ flatted@^3.1.0:
   integrity sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==
 
 follow-redirects@^1.10.0:
-  version "1.13.3"
-  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.3.tgz"
-  integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
+  version "1.14.0"
+  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.0.tgz"
+  integrity sha512-0vRwd7RKQBTt+mgu87mtYeofLFZpTas2S9zY+jIeuLJMNvudIgF52nr19q40HOwH5RrhWIPuj9puybzSJiRrVg==
 
 forever-agent@~0.6.1:
   version "0.6.1"
