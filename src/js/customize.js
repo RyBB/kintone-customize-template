@@ -5,8 +5,9 @@
     console.log(event);
 
     const div = document.createElement('div');
+    div.id = 'hello';
     div.textContent = 'hello world';
-    kintone.app.record.getHeaderMenuSpaceElement().appendChild(div);
+    kintone.app.getHeaderMenuSpaceElement().appendChild(div);
 
     return event;
   });

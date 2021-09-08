@@ -1,15 +1,16 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
+  env: {
+    browser: true,
+    es2021: true,
   },
-  'extends': [
-    'google',
-  ],
-  'parserOptions': {
-    'ecmaVersion': 12,
-    'sourceType': 'module',
+  extends: '@cybozu',
+  globals: {
+    kintone: true,
+    garoon: true,
   },
-  'rules': {
+  rules: {},
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module',
   },
 };
