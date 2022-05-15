@@ -19,7 +19,7 @@
     "@babel/core": "7.16.7",
     "@babel/preset-env": "7.16.8",
     "@cybozu/eslint-config": "16.0.1",
-    "@kintone/customize-uploader": "5.0.18",
+    "@kintone/customize-uploader": "5.0.25",
     "autoprefixer": "^10.4.2",
     "babel-loader": "8.2.3",
     "core-js": "3.20.2",
