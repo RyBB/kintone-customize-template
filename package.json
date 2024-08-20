@@ -22,7 +22,7 @@
     "@kintone/customize-uploader": "5.0.18",
     "autoprefixer": "^10.4.2",
     "babel-loader": "8.2.3",
-    "core-js": "3.20.2",
+    "core-js": "3.38.1",
     "css-loader": "^6.5.1",
     "eslint": "8.6.0",
     "eslint-config-google": "0.14.0",
