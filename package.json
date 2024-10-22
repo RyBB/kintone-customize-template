@@ -16,8 +16,8 @@
   "author": "RyBB",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.16.7",
-    "@babel/preset-env": "7.16.8",
+    "@babel/core": "7.25.9",
+    "@babel/preset-env": "7.25.9",
     "@cybozu/eslint-config": "16.0.1",
     "@kintone/customize-uploader": "5.0.18",
     "autoprefixer": "^10.4.2",
