@@ -23,7 +23,7 @@
     "autoprefixer": "^10.4.2",
     "babel-loader": "8.2.3",
     "core-js": "3.20.2",
-    "css-loader": "^6.5.1",
+    "css-loader": "^6.11.0",
     "eslint": "8.6.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-import": "2.25.4",
